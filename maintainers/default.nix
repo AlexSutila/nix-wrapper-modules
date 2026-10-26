@@ -1,5 +1,4 @@
-{ lib }:
-{
+{ lib }: {
   inherit (lib.maintainers) birdee ameer;
   patwid = {
     name = "Patrick Widmer";
@@ -125,5 +124,32 @@
     name = "alexsutila";
     github = "AlexSutila";
     githubId = 96510931;
+  };
+  lodwkobku = {
+    email = "lodwkobku+nixpkgs@gmail.com";
+    github = "LodWKobku";
+    githubId = 101132529;
+    name = "LodWKobku";
+  };
+  jonas-elhs = {
+    name = "Jonas Elhs";
+    github = "jonas-elhs";
+    githubId = 177471339;
+  };
+  Nadim147c = {
+    github = "Nadim147c";
+    githubId = 90786729;
+    name = "Ephemeral";
+  };
+  ionawr = {
+    name = "ionawr";
+    github = "ionawr";
+    githubId = 219933002;
+  };
+  kuppo = {
+    name = "Peng Lei";
+    email = "swk-pl@163.com";
+    github = "kuppo";
+    githubId = "17398733";
   };
 }
