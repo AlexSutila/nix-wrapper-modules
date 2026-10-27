@@ -279,12 +279,18 @@ in
     };
 
     addFlag = [
-      "-eix"
-      config.constructFiles.gdbEarlyInit.path
-      "-ix"
-      config.constructFiles.gdbInit.path
-      "-x"
-      config.constructFiles.gdbPostInit.path
+      [
+        "-eix"
+        config.constructFiles.gdbEarlyInit.path
+      ]
+      [
+        "-ix"
+        config.constructFiles.gdbInit.path
+      ]
+      [
+        "-x"
+        config.constructFiles.gdbPostInit.path
+      ]
     ];
 
     # A long-time GDB enthusiast, yessir yessir :)
